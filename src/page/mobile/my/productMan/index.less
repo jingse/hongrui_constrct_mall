@@ -1,0 +1,87 @@
+@tabHeight: 3.125rem;
+@searchHeight: 2.75rem;
+
+.clearfix {
+    overflow: hidden;
+    _zoom: 1;
+}
+
+.fullHeightContainer {
+
+    .primaryMenu {
+        float: left;
+        width: 35%;
+        height: 100%;
+        overflow-y: auto;
+        background: #fff;
+    }
+
+    .secondaryMenu {
+        float: left;
+        width: 65%;
+        height: 100%;
+        overflow-y: auto;
+
+        .cate_item {
+            width: 50%;
+            float: left;
+            text-align: center;
+
+            .cate_img {
+                width: 80%;
+            }
+        }
+    }
+}
+
+.product_info_div {
+    line-height: 25px;
+
+    .detail_info {
+        flex: 0 0 25%;
+        text-align: right;
+        font-size: 0.8rem;
+    }
+
+    .detail_val_left {
+        flex: 0 0 23%;
+        font-size: 0.8rem;
+    }
+
+    .detail_val_right {
+        flex: 0 0 30%;
+        font-size: 0.8rem;
+    }
+
+    .primary_btn {
+        display: block;
+        float: right;
+        height: 100%;
+        text-align: center;
+        background-color: darkorange;
+        color: #fff;
+        font-size: 0.8rem;
+        box-sizing: border-box;
+    }
+}
+
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar .am-list {
+    width: 270px;
+    padding: 0;
+}
+
+.picker-list .am-list-item .am-list-line .am-list-extra {
+    flex-basis: initial;
+  }
